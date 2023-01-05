@@ -93,17 +93,9 @@ header{
     width: 50%;
     /* margin-bottom: 150px; */
 }
-image{
-    /* position: relative; */
-    width: 50%;
-    /* height: 500px; */
-    
-}
+
 img{
-    /* position: absolute; */
-    bottom: 0;
-    right: 0;
-    height: 394px;
+    height: 410px;
 }
 
 
