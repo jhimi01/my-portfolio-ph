@@ -184,3 +184,54 @@ main{
     font-weight: 700;
     font-size: 30px;
  }
+
+ .resume-container{
+  display: flex;
+    gap: 45px;
+ }
+ .skill-title{
+   margin: 10px 0;
+   font-size: 22px;
+}
+.small-title{
+     border-bottom: .5px solid #6e6e6e;
+    padding: 20px 0;
+ }
+ .small-title h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+ }
+ .small-title h5{
+    color: #6e6e6e;
+    font-weight: 600;
+    font-size: 15px;
+ }
+ .small-title p{
+    color: #6e6e6e;
+    margin-top: 15px;
+ }
+ .resume-btn{
+    margin: 0 auto;
+ }
+ footer{
+background-color: #fff8f3;
+margin-top: 200px;
+}
+footer .items{
+    display: flex;
+    max-width: 1050px;
+    margin: 0 auto;
+    padding-top: 100px;
+    /* gap: 30px; */
+}
+footer .items .links{
+    display: flex;
+    
+}
+footer .connect li{
+    list-style: none;
+}
+footer .connect li a img{
+    width: 30px;
+    height: 30px;
+}
