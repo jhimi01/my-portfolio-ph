@@ -63,13 +63,13 @@ header{
     background-color: #fff8f3;
     background: url(../image/developer.png);
     background-repeat: no-repeat;
-    height: 900px
+    height: 800px;
  }
 .banner{
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    margin: 60px 150px;
+    margin: 0 150px;
 }
 .banner h3{
     color: #333;
@@ -93,13 +93,13 @@ header{
     /* margin-bottom: 150px; */
 }
 image{
-    position: relative;
+    /* position: relative; */
     width: 50%;
     height: 500px;
     
 }
 img{
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     right: 0;
     height: 394px;
@@ -113,7 +113,7 @@ main{
 .about{
     background-color: #fff8f3;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 130px;
     padding: 130px 150px;
 }
 .about h3{
@@ -140,7 +140,10 @@ main{
 .info li p{
     color: #6e6e6e;
 }
-
+.what-i-do{
+    /* margin-top: 20px; */
+    margin-top: 130px;
+}
 .what-i-do h3{
     text-align: center;
     margin-bottom: 30px;
@@ -149,18 +152,35 @@ main{
  }
  .what-i-do p{
     color: #6e6e6e;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
  }
- .what-i-do ul{
+ .skill-container{
     display: flex;
     gap: 20px;
  }
- .what-i-do ul li{
-    list-style: none;
-    text-align: start;
-    padding: 10px;
-    box-shadow: 10px 10px 10px rgba(hsla(0, 0%, 0%, 0.363));
-}
-.what-i-do ul li h4{
+ .skill{
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 10px 10px #00000050;
+    border-radius: 5px;
+    padding: 20px;
+ }
+ .skill-container img{
+    height: 30px;
+    width: 30px;
     margin-bottom: 10px;
-}
+ }
+ .skill-container .skill-title{
+    margin-bottom: 10px;
+ }
+
+
+
+ .resume{
+    margin-top: 130px;
+ }
+ .resume .section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+ }
