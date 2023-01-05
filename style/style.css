@@ -61,15 +61,16 @@ ul li a {
 } */
 header{
     background-color: #fff8f3;
-    background: url(../image/developer.png);
+   background: url(../image/header_bg.png), url(../image/developer.png);
     background-repeat: no-repeat;
-    height: 800px;
+    background-position: bottom right, left;
+    /* height: 800px; */
  }
 .banner{
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    margin: 0 150px;
+    margin: 80px 150px;
 }
 .banner h3{
     color: #333;
@@ -95,7 +96,7 @@ header{
 image{
     /* position: relative; */
     width: 50%;
-    height: 500px;
+    /* height: 500px; */
     
 }
 img{
@@ -211,7 +212,8 @@ main{
     margin-top: 15px;
  }
  .resume-btn{
-    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
  }
  footer{
 background-color: #fff8f3;
@@ -221,17 +223,42 @@ footer .items{
     display: flex;
     max-width: 1050px;
     margin: 0 auto;
-    padding-top: 100px;
-    /* gap: 30px; */
+    padding: 100px 0;
+    gap: 80px;
+}
+footer .items .contact input{
+    width: 100%;
+    border: none;
+    padding: 15px 10px;
+    margin-bottom: 15px;
+}
+footer .items .contact textarea{
+    width: 100%;
+    height: 135px;
+    border: none;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+footer .items h3{
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px
+}
+footer .items p{
+    font-size: 12px;
+    color: #6e6e6e;
+    margin-bottom: 20px;
 }
 footer .items .links{
     display: flex;
+    gap: 20px;
     
 }
 footer .connect li{
     list-style: none;
 }
 footer .connect li a img{
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
 }
