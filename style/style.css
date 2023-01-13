@@ -254,3 +254,77 @@ footer .connect li a img{
     width: 15px;
     height: 15px;
 }
+
+@media screen and  (max-width: 768px) {
+    .btn,  .btn-second {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+    .banner {
+        justify-content: center;
+        margin: 0px 0px;
+    }
+    .banner .content {
+        width: 100%;
+        padding: 0 30px;
+    }
+    .banner img {
+        display: none;
+    }
+    nav {
+        /* flex-direction: column; */
+        /* text-align: center; */
+        /* gap: 20px; */
+        padding: 25px 30px;
+    }
+   
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav ul li{
+        margin-top: 15px;
+
+    }
+    header{
+        background: none;
+    }
+    .about {
+        padding: 40px 30px;
+    }
+    .about .info {
+        flex-wrap: wrap;
+    }
+    .what-i-do {
+        margin-top: 100px ;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .skill-container {
+        flex-wrap: wrap;
+    }
+    .resume-container {
+       flex-direction: column;
+       padding: 0 30px;
+    }
+    footer .items{
+        flex-direction: column;
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width: 992px){
+    nav {
+        flex-direction: column;
+        align-items: baseline;
+    }
+    .what-i-do {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .resume-container {
+        padding: 0 30px;
+     }
+    footer .items{
+        padding: 10px 30px;
+    }
+}
